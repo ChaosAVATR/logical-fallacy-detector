@@ -3,7 +3,7 @@
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
-import openai==0.27.0
+import openai 0.27.0
 
 # Set up your OpenAI API key
 openai.api_key = st.secrets["sk-l3xuEH2Dbo6TjzgmaxgTAiSwa5Tea-1ss66c3ApOd0T3BlbkFJnfCZCzmDYIRH4I6YO9377TwPkmmOS_E111OL3vSy4A"]
