@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import openai
 
 # Set up your OpenAI API key
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["sk-l3xuEH2Dbo6TjzgmaxgTAiSwa5Tea-1ss66c3ApOd0T3BlbkFJnfCZCzmDYIRH4I6YO9377TwPkmmOS_E111OL3vSy4A"]
 
 st.title("Logical Fallacy and Cognitive Bias Detector")
 
